@@ -1,7 +1,14 @@
+# Задание 1
 git init LenaraKisheva                                       #Создать свой репозиторий в таким же именем, как и имя пользователя 
 git clone git@github.com:LenaraKisheva/LenaraKisheva.git     #Склонировать его на свой компьютер в отдельную папку
 git clone git@github.com:testrusau/testrusau.git             #Склонировать себе следующий репозиторий в отдельную папку https://github.com/testrusau/testrusau
 cd testrusau                                                 #Скопировать данные из склонированного репозитория и вставить их в ваш репозиторий из шага 2
 git push git@github.com:LenaraKisheva/testrusau.git main:main
-git commit -m "Adding my porfolio"                  #Открыть файл README.md и поочередно заменить каждый блок на вашу информацию . Каждое изменений блока делайте через отдельный коммит.
+git commit -m "Adding my porfolio"                           #Открыть файл README.md и поочередно заменить каждый блок на вашу информацию 
 git push 
+
+# Задание 2
+git init testingGuru99                                                       #Создать репозитории для каждого выполненного задания по прошедшим модулям
+git remote add testingGuru99 git@github.com:LenaraKisheva/testingGuru99.git  #Создав локальный репозиторий на компьютере + объявить его удаленно 
+git commit -m "Adding web testing"                                           #Открыть файл README.md и редактировать вручную на вашу информацию 
+git push                                                     
