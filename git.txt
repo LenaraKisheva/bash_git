@@ -1,0 +1,7 @@
+git init LenaraKisheva                                       #Создать свой репозиторий в таким же именем, как и имя пользователя 
+git clone git@github.com:LenaraKisheva/LenaraKisheva.git     #Склонировать его на свой компьютер в отдельную папку
+git clone git@github.com:testrusau/testrusau.git             #Склонировать себе следующий репозиторий в отдельную папку https://github.com/testrusau/testrusau
+cd testrusau                                                 #Скопировать данные из склонированного репозитория и вставить их в ваш репозиторий из шага 2
+git push git@github.com:LenaraKisheva/testrusau.git main:main
+git commit -m "Adding my porfolio"                  #Открыть файл README.md и поочередно заменить каждый блок на вашу информацию . Каждое изменений блока делайте через отдельный коммит.
+git push 
